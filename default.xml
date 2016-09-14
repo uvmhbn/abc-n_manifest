@@ -34,6 +34,8 @@
   <project path="packages/services/Telephony" name="pnmod-n_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="n" />
   <project path="system/core" name="pnmod-n_system_core" groups="pdk" remote="pnmod" revision="n" />
   <project path="vendor/nexus" name="pnmod-n_vendor_nexus" remote="pnmod" revision="n" />
+  <project path="frameworks/native" name="pnmod-n_frameworks_native" groups="pdk" remote="pnmod" revision="n" />
+  <project path="packages/apps/Bluetooth" name="pnmod-n_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="n" />
 
   <!-- Angler trees -->
   <project path="device/huawei/angler" name="pnmod-n_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pnmod" revision="n" />
@@ -318,7 +320,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -389,7 +390,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
