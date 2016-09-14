@@ -1,35 +1,24 @@
-The PureNexus Project
+PureNexus MOD
 =====================
 
-Getting Started
----------------
+Tip and tricks:
 
-To build PureNexus from source, you'll need to be familiar with
-[Git and Repo](http://source.android.com/download/using-repo).
+Repo init command:
+	repo init -u https://github.com/ezio84/pnmod-n_manifest.git -b n
 
-
-To initialize your local repository, use this command:
-
-	repo init -u https://github.com/PureNexusProject/manifest.git -b n
-
-Then to sync source, use this command:
+Sync source (for future syncs, if you have errors, try "repo sync --force-sync")
 
 	repo sync
 
-After syncing is done, use these commands to build:
+To build:
 
-    1.) . build/envsetup.sh
-    2.) brunch xxxx yyyy
-    
-    xxxx= device name aka shamu
-    yyyy= build type (user,userdebug,eng)*
+        https://github.com/ezio84/scripts/blob/n/README.mkdn
+        https://github.com/ezio84/scripts/blob/n/build_rom.sh
 
-    *if no build type is specified "user" is default
 
-Enjoy, Stick around for a while AOSP Building is Fun!!!
+=====================
 
-[@BeansTown106](https://twitter.com/beanstown106) on Twitter
+Original PureNexus infos, donations link and other stuff:
 
 [PureNexus Community](https://plus.google.com/u/0/communities/103055954354785266764) on Google+
 
-[PureNexusProject-Legacy](https://github.com/PureNexusProject-Legacy) Old Source and Reference code
