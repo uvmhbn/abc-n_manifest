@@ -40,6 +40,7 @@
   <project path="packages/apps/Bluetooth" name="pnmod-n_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="n" />
   <project path="packages/apps/Dialer" name="pnmod-n_packages_apps_Dialer" groups="pdk-fs" remote="pnmod" revision="n" />
   <project path="system/extras" name="pnmod-n_system_extras" groups="pdk" remote="pnmod" revision="n" />
+  <project path="system/sepolicy" name="pnmod-n_system_sepolicy" groups="pdk" remote="pnmod" revision="n" />
 
   <!-- Angler trees -->
   <project path="device/huawei/angler" name="pnmod-n_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pnmod" revision="n" />
@@ -495,7 +496,6 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
