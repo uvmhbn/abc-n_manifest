@@ -41,6 +41,7 @@
   <project path="packages/apps/Dialer" name="pnmod-n_packages_apps_Dialer" groups="pdk-fs" remote="pnmod" revision="n" />
   <project path="system/extras" name="pnmod-n_system_extras" groups="pdk" remote="pnmod" revision="n" />
   <project path="system/sepolicy" name="pnmod-n_system_sepolicy" groups="pdk" remote="pnmod" revision="n" />
+  <project path="packages/apps/Contacts" name="pnmod-n_packages_apps_Contacts" groups="pdk-fs" remote="pnmod" revision="n" />
 
   <!-- Angler trees -->
   <project path="device/huawei/angler" name="pnmod-n_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pnmod" revision="n" />
@@ -399,7 +400,6 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
