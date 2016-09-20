@@ -25,6 +25,7 @@
   <project path="art" name="pnmod-n_art" groups="pdk" remote="pnmod" revision="n" />
   <project path="external/busybox" name="pnmod-n_external_busybox" remote="pnmod" revision="n" />
   <project path="external/skia" name="pnmod-n_external_skia" groups="pdk,qcom_msm8x26" remote="pnmod" revision="n" />
+  <project path="frameworks/av" name="pnmod-n_frameworks_av" groups="pdk" remote="pnmod" revision="n" />
   <project path="frameworks/base" name="pnmod-n_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="n" />
   <project path="frameworks/native" name="pnmod-n_frameworks_native" groups="pdk" remote="pnmod" revision="n" />
   <project path="frameworks/support" name="pnmod-n_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="n" />
@@ -317,7 +318,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
