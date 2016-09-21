@@ -34,6 +34,7 @@
   <project path="packages/apps/ContactsCommon" name="pnmod-n_packages_apps_ContactsCommon" groups="pdk-fs" remote="pnmod" revision="n" />
   <project path="packages/apps/Dialer" name="pnmod-n_packages_apps_Dialer" groups="pdk-fs" remote="pnmod" revision="n" />
   <project path="packages/apps/PackageInstaller" name="pnmod-n_packages_apps_PackageInstaller" groups="pdk-fs" remote="pnmod" revision="n" />
+  <project path="packages/apps/PhoneCommon" name="pnmod-n_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="n" />
   <project path="packages/apps/PureSettings" name="pnmod-n_packages_apps_PureSettings" remote="pnmod" revision="n" />
   <project path="packages/apps/Settings" name="pnmod-n_packages_apps_Settings" groups="pdk-fs" remote="pnmod" revision="n" />
   <project path="packages/inputmethods/LatinIME" name="pnmod-n_packages_inputmethods_LatinIME" groups="pdk-fs" remote="pnmod" revision="n" />
@@ -416,7 +417,6 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
