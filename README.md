@@ -1,4 +1,4 @@
-PureNexus MOD
+ABC rom
 =====================
 
 Tip and tricks:
@@ -19,7 +19,8 @@ To build:
 
 =====================
 
-Original PureNexus infos, donations link and other stuff:
+This rom uses PureNexus as main source.
 
+Original PureNexus infos, donations link and other stuff:
 [PureNexus Community](https://plus.google.com/u/0/communities/103055954354785266764) on Google+
 
