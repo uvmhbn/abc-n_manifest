@@ -17,6 +17,7 @@
 
   <!-- Scripts -->
   <project path="scripts" name="scripts" remote="pnmod" revision="n" />
+  <project path="scripts/vendor-blobs-extractfromfactory" name="vendor-blobs-extractfromfactory" remote="pnmod" revision="n" />
   <!-- PNmod Repo's -->
   <project path="build" name="pnmod-n_build" groups="pdk" remote="pnmod" revision="n" >
     <copyfile src="core/root.mk" dest="Makefile" />
