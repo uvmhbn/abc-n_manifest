@@ -10,7 +10,7 @@
            fetch="https://github.com/PureNexusProject/" />
   <remote name="pnmod"
            fetch="https://github.com/ezio84/" />
-  <default revision="refs/tags/android-7.0.0_r6"
+  <default revision="refs/tags/android-7.0.0_r13"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
