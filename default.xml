@@ -48,6 +48,8 @@
   <project path="system/extras" name="pnmod-n_system_extras" groups="pdk" remote="pnmod" revision="n" />
   <project path="system/sepolicy" name="pnmod-n_system_sepolicy" groups="pdk" remote="pnmod" revision="n" />
   <project path="vendor/nexus" name="pnmod-n_vendor_nexus" remote="pnmod" revision="n" />
+    <!-- Substratum -->
+  <project path="packages/apps/masquerade" name="masquerade" remote="substratum" revision="master" />
 
   <!-- Angler trees -->
   <project path="device/huawei/angler" name="pnmod-n_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pnmod" revision="n" />
