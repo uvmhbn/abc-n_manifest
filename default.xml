@@ -10,6 +10,8 @@
            fetch="https://github.com/PureNexusProject/" />
   <remote name="pnmod"
            fetch="https://github.com/ezio84/" />
+  <remote name="substratum"
+           fetch="https://github.com/TeamSubstratum/" />
   <default revision="refs/tags/android-7.0.0_r13"
            remote="aosp"
            sync-c="true"
