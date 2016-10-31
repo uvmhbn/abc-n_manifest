@@ -18,45 +18,45 @@
            sync-j="4" />
 
   <!-- Scripts -->
-  <project path="scripts" name="scripts" remote="pnmod" revision="n" />
+  <project path="scripts" name="scripts" remote="pnmod" revision="oms7" />
   <project path="scripts/vendor-blobs-extractfromfactory" name="vendor-blobs-extractfromfactory" remote="pnmod" revision="n" />
   <!-- PNmod Repo's -->
-  <project path="build" name="pnmod-n_build" groups="pdk" remote="pnmod" revision="n" >
+  <project path="build" name="pnmod-n_build" groups="pdk" remote="pnmod" revision="oms7" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="manifest" name="pnmod-n_manifest" remote="pnmod" revision="oms7" />
-  <project path="bootable/recovery" name="pnmod-n_bootable_recovery" groups="pdk" remote="pnmod" revision="n" />
-  <project path="external/busybox" name="pnmod-n_external_busybox" remote="pnmod" revision="n" />
-  <project path="external/DUtils" name="pnmod-n_external_DUtils" remote="pnmod" revision="n" />
-  <project path="frameworks/av" name="pnmod-n_frameworks_av" groups="pdk" remote="pnmod" revision="n" />
+  <project path="bootable/recovery" name="pnmod-n_bootable_recovery" groups="pdk" remote="pnmod" revision="oms7" />
+  <project path="external/busybox" name="pnmod-n_external_busybox" remote="pnmod" revision="oms7" />
+  <project path="external/DUtils" name="pnmod-n_external_DUtils" remote="pnmod" revision="oms7" />
+  <project path="frameworks/av" name="pnmod-n_frameworks_av" groups="pdk" remote="pnmod" revision="oms7" />
   <project path="frameworks/base" name="pnmod-n_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="oms7" />
   <project path="frameworks/native" name="pnmod-n_frameworks_native" groups="pdk" remote="pnmod" revision="oms7" />
-  <project path="frameworks/support" name="pnmod-n_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="n" />
-  <project path="packages/apps/Bluetooth" name="pnmod-n_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="n" />
-  <project path="packages/apps/Contacts" name="pnmod-n_packages_apps_Contacts" groups="pdk-fs" remote="pnmod" revision="n" />
-  <project path="packages/apps/ContactsCommon" name="pnmod-n_packages_apps_ContactsCommon" groups="pdk-fs" remote="pnmod" revision="n" />
-  <project path="packages/apps/Dialer" name="pnmod-n_packages_apps_Dialer" groups="pdk-fs" remote="pnmod" revision="n" />
-  <project path="packages/apps/DUI" name="pnmod-n_packages_apps_DUI" remote="pnmod" revision="n" />
-  <project path="packages/providers/DownloadProvider" name="pnmod-n_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="n" />
-  <project path="packages/apps/PackageInstaller" name="pnmod-n_packages_apps_PackageInstaller" groups="pdk-fs" remote="pnmod" revision="n" />
-  <project path="packages/apps/PhoneCommon" name="pnmod-n_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="n" />
-  <project path="packages/apps/PureSettings" name="pnmod-n_packages_apps_PureSettings" remote="pnmod" revision="n" />
+  <project path="frameworks/support" name="pnmod-n_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="oms7" />
+  <project path="packages/apps/Bluetooth" name="pnmod-n_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="oms7" />
+  <project path="packages/apps/Contacts" name="pnmod-n_packages_apps_Contacts" groups="pdk-fs" remote="pnmod" revision="oms7" />
+  <project path="packages/apps/ContactsCommon" name="pnmod-n_packages_apps_ContactsCommon" groups="pdk-fs" remote="pnmod" revision="oms7" />
+  <project path="packages/apps/Dialer" name="pnmod-n_packages_apps_Dialer" groups="pdk-fs" remote="pnmod" revision="oms7" />
+  <project path="packages/apps/DUI" name="pnmod-n_packages_apps_DUI" remote="pnmod" revision="oms7" />
+  <project path="packages/apps/PackageInstaller" name="pnmod-n_packages_apps_PackageInstaller" groups="pdk-fs" remote="pnmod" revision="oms7" />
+  <project path="packages/apps/PhoneCommon" name="pnmod-n_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="oms7" />
+  <project path="packages/apps/PureSettings" name="pnmod-n_packages_apps_PureSettings" remote="pnmod" revision="oms7" />
   <project path="packages/apps/Settings" name="pnmod-n_packages_apps_Settings" groups="pdk-fs" remote="pnmod" revision="oms7" />
-  <project path="packages/inputmethods/LatinIME" name="pnmod-n_packages_inputmethods_LatinIME" groups="pdk-fs" remote="pnmod" revision="n" />
-  <project path="packages/providers/TelephonyProvider" name="pnmod-n_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="n" />
-  <project path="packages/services/Telecomm" name="pnmod-n_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="n" />
-  <project path="packages/services/Telephony" name="pnmod-n_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="n" />
-  <project path="system/core" name="pnmod-n_system_core" groups="pdk" remote="pnmod" revision="n" />
-  <project path="system/extras" name="pnmod-n_system_extras" groups="pdk" remote="pnmod" revision="n" />
+  <project path="packages/inputmethods/LatinIME" name="pnmod-n_packages_inputmethods_LatinIME" groups="pdk-fs" remote="pnmod" revision="oms7" />
+  <project path="packages/providers/DownloadProvider" name="pnmod-n_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="oms7" />
+  <project path="packages/providers/TelephonyProvider" name="pnmod-n_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="oms7" />
+  <project path="packages/services/Telecomm" name="pnmod-n_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="oms7" />
+  <project path="packages/services/Telephony" name="pnmod-n_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="pnmod" revision="oms7" />
+  <project path="system/core" name="pnmod-n_system_core" groups="pdk" remote="pnmod" revision="oms7" />
+  <project path="system/extras" name="pnmod-n_system_extras" groups="pdk" remote="pnmod" revision="oms7" />
   <project path="system/sepolicy" name="pnmod-n_system_sepolicy" groups="pdk" remote="pnmod" revision="oms7" />
   <project path="vendor/nexus" name="pnmod-n_vendor_nexus" remote="pnmod" revision="oms7" />
     <!-- Substratum -->
   <project path="packages/apps/masquerade" name="masquerade" remote="substratum" revision="master" />
 
   <!-- Angler trees -->
-  <project path="device/huawei/angler" name="pnmod-n_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pnmod" revision="n" />
-  <project path="kernel/huawei/angler" name="pnmod-n_kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="pnmod" revision="n" />
-  <project path="vendor/huawei" name="pnmod-n_vendor_huawei" remote="pnmod" revision="n" />
+  <project path="device/huawei/angler" name="pnmod-n_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pnmod" revision="oms7" />
+  <project path="kernel/huawei/angler" name="pnmod-n_kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="pnmod" revision="oms7" />
+  <project path="vendor/huawei" name="pnmod-n_vendor_huawei" remote="pnmod" revision="oms7" />
 
   <!-- AOSP Repo's -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
