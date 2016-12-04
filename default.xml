@@ -52,7 +52,7 @@
   <project path="vendor/nexus" name="abc-n_vendor_nexus" remote="abc" revision="oms7" />
   <project path="frameworks/opt/telephony" name="abc-n_frameworks_opt_telephony" groups="pdk" remote="abc" revision="oms7" />
     <!-- Substratum -->
-  <project path="packages/apps/masquerade" name="masquerade" remote="substratum" revision="master" />
+  <project path="packages/apps/masquerade" name="masquerade" remote="substratum" revision="n" />
 
   <!-- Angler trees -->
   <project path="device/huawei/angler" name="abc-n_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="abc" revision="oms7" />
