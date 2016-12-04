@@ -50,6 +50,7 @@
   <project path="system/extras" name="abc-n_system_extras" groups="pdk" remote="abc" revision="oms7" />
   <project path="system/sepolicy" name="abc-n_system_sepolicy" groups="pdk" remote="abc" revision="oms7" />
   <project path="vendor/nexus" name="abc-n_vendor_nexus" remote="abc" revision="oms7" />
+  <project path="frameworks/opt/telephony" name="abc-n_frameworks_opt_telephony" groups="pdk" remote="abc" revision="oms7" />
     <!-- Substratum -->
   <project path="packages/apps/masquerade" name="masquerade" remote="substratum" revision="master" />
 
@@ -347,7 +348,6 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
