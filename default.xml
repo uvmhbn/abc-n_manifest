@@ -14,7 +14,7 @@
            fetch="https://github.com/uvmhbn/" />
   <remote  name="flash-gl"
             revision="n7.1.1"
-            fetch="ssh://git@gitlab.com/Flash-ROM/" />
+            fetch="https://gitlab.com/Flash-ROM/" />
   <remote name="substratum"
            fetch="https://github.com/substratum/" />
   <default revision="refs/tags/android-7.1.1_r26"
@@ -26,10 +26,10 @@
   <project path="scripts" name="scripts" remote="abc" revision="n2" />
   <project path="scripts/vendor-blobs-extractfromfactory" name="vendor-blobs-extractfromfactory" remote="abc" revision="n2" />
   <!-- PNmod Repo's -->
-  <project path="build" name="abc-n_build" groups="pdk" remote="abc" revision="n2" >
+  <project path="build" name="abc-n_build" groups="pdk" remote="uvm" revision="n2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="manifest" name="abc-n_manifest" remote="abc" revision="n2" />
+  <project path="manifest" name="abc-n_manifest" remote="uvm" revision="n2" />
   <project path="bootable/recovery" name="abc-n_bootable_recovery" groups="pdk" remote="abc" revision="n2" />
   <project path="external/busybox" name="abc-n_external_busybox" remote="abc" revision="n2" />
   <project path="external/DUtils" name="abc-n_external_DUtils" remote="abc" revision="n2" />
@@ -39,7 +39,7 @@
   <project path="frameworks/opt/telephony" name="abc-n_frameworks_opt_telephony" groups="pdk" remote="abc" revision="n2" />
   <project path="frameworks/rs" name="abc-n_frameworks_rs" groups="pdk" remote="abc" revision="n2" />
   <project path="frameworks/support" name="abc-n_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="n2" />
-  <project path="packages/apps/AbcSettings" name="abc-n_packages_apps_AbcSettings" remote="uvm" revision="n2" />
+  <project path="packages/apps/AbcSettings" name="abc-n_packages_apps_AbcSettings" remote="abc" revision="n2" />
   <project path="packages/apps/Bluetooth" name="abc-n_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="abc" revision="n2" />
   <project path="packages/apps/CellBroadcastReceiver" name="abc-n_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="abc" revision="n2" />
   <project path="packages/apps/Contacts" name="abc-n_packages_apps_Contacts" groups="pdk-fs" remote="abc" revision="n2" />
@@ -505,7 +505,7 @@
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="uvm" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
