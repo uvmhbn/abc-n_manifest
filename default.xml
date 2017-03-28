@@ -12,9 +12,8 @@
            fetch="https://github.com/ezio84/" />
   <remote name="uvm"
            fetch="https://github.com/uvmhbn/" />
-  <remote  name="flash-gl"
-            revision="n7.1.1"
-            fetch="https://gitlab.com/Flash-ROM/" />
+  <remote  name="bitbucket"
+            fetch="https://bitbucket.org/" />
   <remote name="substratum"
            fetch="https://github.com/substratum/" />
   <default revision="refs/tags/android-7.1.1_r26"
@@ -467,6 +466,8 @@
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="uberroms/aarch64-linux-android-6.x" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="uberroms/arm-linux-androideabi-6.x" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
