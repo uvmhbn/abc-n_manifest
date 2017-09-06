@@ -71,7 +71,7 @@
 
   <!-- Angler trees -->
   <project path="device/huawei/angler" name="abc_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="uvm" revision="n2" />
-  <project path="kernel/huawei/angler" name="nathanchance/angler" groups="device,angler,broadcom_pdk" remote="github" revision="8.0.0-flash" />
+  <project path="kernel/huawei/angler" name="nathanchance/angler" groups="device,angler,broadcom_pdk" remote="github" revision="7.1.2-flash" />
   <project path="vendor/huawei" name="abc_vendor_huawei" remote="uvm" revision="n2" />
 
   <!-- AOSP trees -->
